@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation,Link } from "react-router-dom";
 
 function Navbar() {
     const location = useLocation();
@@ -35,30 +35,30 @@ function Navbar() {
             <nav>
                 <div className="navbar">
                     <div className="nav-logo">
-                        <a href="/Homepage">
+                        <Link to="/">
                             <img src="./img/web-logo-n.webp" alt="nav-logo"/>
-                        </a>
+                        </Link>
                     </div>
                     <ul>
-                        <li><a href="#">COMPANY</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="#">PRODUCT</a></li>
-                        <li><a href="#">SUPPORT</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><Link to="#">COMPANY</Link></li>
+                        <li><Link to="#">NEWS</Link></li>
+                        <li><Link to="#">PRODUCT</Link></li>
+                        <li><Link to="#">SUPPORT</Link></li>
+                        <li><Link to="#">CONTACT</Link></li>
                         <div className="language">
-                            <a
-                                href="/"
+                            <Link
+                                to="/"
                                 style={{ fontWeight: selectedLanguage === 'EN' ? 'bold' : 'normal' }}
                             >
                                 EN
-                            </a>
+                            </Link>
                             /
-                            <a
-                                href="/Page404"
+                            <Link
+                                to="/Page404"
                                 style={{ fontWeight: selectedLanguage === 'CN' ? 'bold' : 'normal' }}
                             >
                                 CN
-                            </a>
+                            </Link>
                         </div>
                     </ul>
                     <button 
