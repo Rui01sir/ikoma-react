@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-// import {Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 function Homepage(){
     return(
@@ -7,12 +7,12 @@ function Homepage(){
             <div className="home-banner">
                 <img src="./img/home-banner.webp" alt="home-banner"></img>
                 <div className="contact-us-btn">
-                    <a href="#">
+                    <Link to="#">
                         <div className="contact-us-text">CONTACT US 
                             <img src="./img/icon-next.webp" alt="icon-next"></img>
                         </div>
                         <img src="./img/contact-us-btn.webp" alt="contact-us-btn"></img>
-                    </a>
+                    </Link>
                 </div>
                 <div className="home-banner-text">
                     <h2>Absolutely supply good quality and comfort shock absorber</h2>
