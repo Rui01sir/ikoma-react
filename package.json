@@ -14,7 +14,7 @@
   },
   {
   "homepages":"https://rui01sir.github.io/ikoma-react"
-  }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
