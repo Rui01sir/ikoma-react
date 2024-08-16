@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter,HashRouter as Routes, Route } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Navbar from './components/Navbar';
 import Page404 from './components/Page404';
