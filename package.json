@@ -1,4 +1,7 @@
 {
+  "homepages":"https://rui01sir.github.io/ikoma-react"
+}
+{
   "name": "ikoma-tw-react",
   "version": "0.1.0",
   "private": true,
@@ -11,9 +14,6 @@
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
-  {
-  "homepages":"https://rui01sir.github.io/ikoma-react"
   },
   "scripts": {
     "start": "react-scripts start",
