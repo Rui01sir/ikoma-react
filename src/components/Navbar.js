@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation,Link } from "react-router-dom";
+import { useLocation , Link } from "react-router-dom";
 
 function Navbar() {
     const location = useLocation();
@@ -35,7 +35,7 @@ function Navbar() {
             <nav>
                 <div className="navbar">
                     <div className="nav-logo">
-                        <Link to="/">
+                        <Link to="/Homepage">
                             <img src="./img/web-logo-n.webp" alt="nav-logo"/>
                         </Link>
                     </div>
@@ -50,14 +50,14 @@ function Navbar() {
                                 to="/"
                                 style={{ fontWeight: selectedLanguage === 'EN' ? 'bold' : 'normal' }}
                             >
-                                EN
+                                <img src="./img/usa.svg" alt="usa-logo"></img>EN
                             </Link>
                             /
                             <Link
                                 to="/Page404"
                                 style={{ fontWeight: selectedLanguage === 'CN' ? 'bold' : 'normal' }}
                             >
-                                CN
+                                CN<img src="./img/roc.svg" alt="roc-logo"></img>
                             </Link>
                         </div>
                     </ul>
