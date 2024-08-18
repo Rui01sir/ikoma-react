@@ -13,7 +13,7 @@ function App() {
     <Navbar/>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
-        <Route path="*" element={<Page404/>}/>
+        <Route path="Page404" element={<Page404/>}/>
       </Routes>
     <Footer/>
     </BrowserRouter>  
