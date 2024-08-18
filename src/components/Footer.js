@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Footer(){
     return(
@@ -7,26 +6,26 @@ function Footer(){
             <footer>
                 <div className="footer-bar">
                     <div className="nav-logo">
-                        <Link to="/">
+                        <a href="/">
                             <img src="./img/web-logo-n.webp" alt="nav-logo" />
-                        </Link>
+                        </a>
                     </div>
                     <ul>
-                <li><Link to="#">COMPANY</Link></li>
-                <li><Link to="#">NEWS</Link></li>
-                <li><Link to="#">PRODUCT</Link></li>
-                <li><Link to="#">SUPPORT</Link></li>
-                <li><Link to="#">CONTACT</Link></li>
+                <li><a href="#">COMPANY</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">SUPPORT</a></li>
+                <li><a href="#">CONTACT</a></li>
                     </ul>   
                 </div>
                 <div className="footer-text">
             <p>Absolutely supply good quality and comfort shock absorber</p>
             <div className="footer-icon">
                 <ul>
-                    <li><Link to="#"><img src="./img/instagram.webp"></img></Link></li>
-                    <li><Link to="#"><img src="./img/email.webp"></img></Link></li>
-                    <li><Link to="#"><img src="./img/facebook.webp"></img></Link></li>
-                    <li><Link to="#"><img src="./img/whatapp.webp"></img></Link></li>
+                    <li><a href="#"><img src="./img/instagram.webp"></img></a></li>
+                    <li><a href="#"><img src="./img/email.webp"></img></a></li>
+                    <li><a href="#"><img src="./img/facebook.webp"></img></a></li>
+                    <li><a href="#"><img src="./img/whatapp.webp"></img></a></li>
                 </ul>
             </div>
                 </div>
