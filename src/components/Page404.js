@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 function Page404(){
@@ -10,7 +10,7 @@ function Page404(){
             </div>
             <div className="banner-404-text">
                 <h3>Sorry, the page you are looking for no longer exists.</h3>
-                <Link to="/" alt="back-Homepage" >HOMEPAGE<img src="./img/icon-next.webp" alt="icon-next"></img></Link>
+                <Link to="/" alt="back-Homepage" >HOMEPAGE<img src="./img/next-icon-b.svg" alt="icon-next"></img></Link>
             </div>
         </div>
 )}
